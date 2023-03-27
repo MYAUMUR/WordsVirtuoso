@@ -1,0 +1,20 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    import kotlin.random.Random
+
+    fun rpgDices(dice1: Int, dice2: Int): Int {
+        // write your code here
+
+        return sumOfDices
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/27075#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 23 Mar 2023 12:55:33 UTC"
+record: -1
+submission_language: kotlin

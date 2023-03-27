@@ -1,0 +1,1 @@
+fun rpgDices(dice1: Int, dice2: Int): Int = (1..dice1).random() + (1..dice2).random()

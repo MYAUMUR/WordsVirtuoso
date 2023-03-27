@@ -1,0 +1,15 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    import kotlin.random.Random
+
+    fun createDiceGameRandomizer(n: Int): Int {
+        // write your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/11808#comment
+status: Failed
+record: -1
+submission_language: kotlin

@@ -1,0 +1,1 @@
+open class Base(id: Int, length: Float? = null, message: String? = null)

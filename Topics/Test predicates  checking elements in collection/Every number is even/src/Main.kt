@@ -1,0 +1,1 @@
+fun main() = println(readln().split(" ").map { it.toInt() }.all { it % 2 == 0 && it <= 20 })

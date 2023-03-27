@@ -1,0 +1,18 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    fun main() {
+        val list = readln().split(" ").map{ it.toDouble() }
+        // write your code here
+
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/24881#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 23 Mar 2023 14:26:45 UTC"
+record: -1
+submission_language: kotlin

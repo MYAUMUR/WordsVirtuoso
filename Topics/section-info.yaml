@@ -1,0 +1,18 @@
+content:
+- Commonly Used Regex
+- Function references
+- Pair and Triple
+- Inheritance and constructors
+- Lambda with receiver
+- Introduction to generic programming
+- Generic functions
+- Generics and Any
+- Type Bounds
+- Delegate
+- Interface composition
+- Inline functions and reified types in Kotlin
+- Infix functions
+- Random
+- Interface inheritance
+- Retrieve single element
+- Test predicates  checking elements in collection
