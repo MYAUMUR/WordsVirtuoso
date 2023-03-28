@@ -16,3 +16,6 @@ content:
 - Interface inheritance
 - Retrieve single element
 - Test predicates  checking elements in collection
+- Scope functions  apply and also (1)
+- "Scope functions  let, run, and with"
+- Scope functions  summary
