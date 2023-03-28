@@ -1,4 +1,5 @@
 <h2>Generics and Any</h2>
+<div class="step-text">
 <p>As you know, <strong>generics</strong> enable us to parameterize types when defining classes (or interfaces) and methods. Parameterized types make it possible to reuse the same code while processing different concrete types.</p>
 <h5 id="reusing-code-with-generics" style="text-align: center;">Reusing code with generics</h5>
 <p>Let's consider a generic class named <code class="language-kotlin">GenericType</code> that stores a value of "some type".</p>
@@ -89,3 +90,4 @@ second = Smith</code></pre>
 <p>As you can see, if the field type in the class is Any, you can easily and with no errors assign values of different types to the field, which is not good. When you write small programs, this might not be a problem for you, as you will remember what field type you defined. But when you go to code large programs and applications, this can lead to errors that are very hard to find. In this case, it is best to use generics: if you try to assign a value with a different type to a field, it won't compile and you will easily find the problem</p>
 <h5 id="conclusion" style="text-align: center;">Conclusion</h5>
 <p>Both generics and Any allow you to write generalized code. Using <code class="language-kotlin">Any</code>, however, may require explicit type-casting, which can lead to error-prone code. Generics provide type-safety by shifting type checking responsibilities to the Kotlin compiler.</p>
+</div>

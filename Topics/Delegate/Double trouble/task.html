@@ -1,4 +1,5 @@
 <h2>Double trouble</h2>
+<div class="step-text">
 <p></p>
 <p>We didn't have examples of including not just one but two delegates in a class, so this task might prove to be a challenging one! What will be printed when <code class="language-kotlin">LogDataCollector(IndexData(5), ValueData(10)).print()</code> is called?</p>
 <pre><code class="language-kotlin">interface IIndex {
@@ -24,3 +25,4 @@ fun getDateTime() = "03-05-2021-14:33"
 class LogDataCollector(index: IIndex, value: IValue) : IIndex by index, IValue by value {
     override fun print() = print("[${getDateTime()}]: $index, $value")
 }</code></pre>
+</div>

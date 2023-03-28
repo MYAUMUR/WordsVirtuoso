@@ -1,4 +1,5 @@
 <h2>Type Bounds</h2>
+<div class="step-text">
 <html><body><p>Previously, we have seen that generics can accept any type of parameters and make code reusable. Let's get familiar with another aspect of generics now. Sometimes we need to restrict the type parameter inside a generic function or class. For example, we have a generic class <code class="language-kotlin">Storage&lt;T&gt;</code> and we want to make it store only books without creating one more class. In such a situation, we should use <strong>type bounds</strong>.</p>
 <h5 id="usage-with-classes">Usage with classes</h5>
 <p>We have mentioned a generic class named <code class="language-kotlin">Storage&lt;T&gt;</code> above. Let's take a look at its code:</p>
@@ -42,3 +43,4 @@ sortByDate(listTwo) // Error: String is not a subtype of Book</code></pre>
 <p>When you use multiple bounds, the first type should be a class or an interface. The following types must be interfaces.</p>
 <h5 id="conclusion">Conclusion</h5>
 <p>Type bounds are used to restrict type parameters. The most common use of type bounds is setting upper bounds. It may come in handy if you want to limit the types a class can store or a function can take. You can also set multiple bounds, but remember about single inheritance!</p></body></html>
+</div>

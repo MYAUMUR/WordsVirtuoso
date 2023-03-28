@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: typealias List&lt;pet.gooddoggo&gt; = Doggos
+- text: List&lt;pet.cat&gt; = typealias Cats
+- text: typealias Doggos = List&lt;pet.gooddoggo&gt;
+- text: List&lt;pet.cat&gt; = Cats
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15355#comment
+status: Solved
+record: -1
+local_check: false

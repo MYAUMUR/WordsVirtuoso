@@ -1,4 +1,5 @@
 <h2>Random</h2>
+<div class="step-text">
 <p>A random number is a number that is almost impossible to predict, like the result of throwing a dice. A random number generator can provide you with such a number when you need it, and you will probably need it quite often. For example, it comes in handy when you're trying to create a password nobody can guess, make the next unpredictable move in a game, or generate a lot of random data.</p><p>Random generators are widely used in cryptography, machine learning, games, and more. In this topic, we'll cover some ways to generate random numbers in Kotlin.</p><h5 id="types-of-random-numbers">Types of random numbers</h5><p>You can set some restrictions for your random number by choosing a specific type. Everything you need for this purpose is located in the <code class="language-kotlin">kotlin.random</code> package. Take a look at the code snippet below:</p><pre><code class="language-kotlin">import kotlin.random.Random
 
 fun main() {
@@ -47,3 +48,4 @@ val defaultGenerator = Random.Default
 for (i in 0..5) {                      
     defaultGenerator.nextInt(100)
 }</code></pre><h5 id="conclusion">Conclusion</h5><p>To work with pseudorandom data, we need to decide whether we need a predictable result or not. In the first case, we can use a known seed, and in the second case, we can generate a seed based on the system time or simply use the default implementation. Remember that random sequences are only guaranteed to be the same if they are generated with the same version of Kotlin runtime, but they can be different in different Kotlin versions or different programming languages even for the same seed.</p>
+</div>

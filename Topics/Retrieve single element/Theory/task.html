@@ -1,4 +1,5 @@
 <h2>Retrieve single element</h2>
+<div class="step-text">
 <p>Working with collections, we make use of grouped sets of elements or items, which is essential in a variety of tasks. In previous topics, you have learned to select collection elements, order them, retrieve some of them, and even group or transform them according to your needs.</p><p>In this topic, we will focus on single elements and explore different methods Kotlin offers for working with them.</p><h5 id="retrieve-by-position">Retrieve by position</h5><p>Collections, such as lists or sets, are accessed via indices, which start at <code class="language-kotlin">0</code> (the first element) and go up to <code class="language-kotlin">size-1</code> (the last element of the collection).</p><p>To get the element at a specific index position, you can use <code class="language-kotlin">elementAt()</code>. We can also fetch an element in an equivalent way with the <code class="language-kotlin">get()</code> function.</p><p>However, in the Kotlin world, things are easier if we use the <a href="https://kotlinlang.org/docs/list-operations.html#retrieve-elements-by-index" rel="noopener noreferrer nofollow" target="_blank">indexed access operator</a> <code class="language-kotlin">[]</code>, which is equivalent to the <code class="language-kotlin">get()</code> function on lists.</p><p>All of them will throw an <code class="language-kotlin">IndexOutOfBoundsException</code> if the index is not within the indicated limits (<code class="language-kotlin">0</code>.. <code class="language-kotlin">size-1</code>). </p><pre><code class="language-kotlin">fun main() {
     
     val numberList = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
@@ -161,3 +162,4 @@
 
 
 }</code></pre><h5 id="conclusion">Conclusion</h5><p>In this topic, you have explored different ways of getting elements from a collection: by indicating the position, using conditions, with a selector, or randomly. Also, you have learned how to check if an element or several elements are contained in a collection.</p><p>Now, you are going to put it all into practice. Are you ready for the challenge?</p>
+</div>

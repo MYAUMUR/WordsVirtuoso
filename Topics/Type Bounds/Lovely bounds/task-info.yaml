@@ -15,6 +15,9 @@ files:
       // put your code here
     }
   learner_created: false
+- name: src/SubGizmoImpl.kt
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/16939#comment
 status: Solved
 record: -1

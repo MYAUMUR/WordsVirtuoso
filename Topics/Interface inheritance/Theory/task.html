@@ -1,5 +1,6 @@
 <h2>Interface inheritance</h2>
-<html><body><p>Inheritance is a concept we have already covered in the context of classes. It greatly helps with reducing the amount of boilerplate code by introducing a way to create extensions of classes, or even class models or abstractions, to be implemented later.</p>
+<div class="step-text">
+<p>Inheritance is a concept we have already covered in the context of classes. It greatly helps with reducing the amount of boilerplate code by introducing a way to create extensions of classes, or even class models or abstractions, to be implemented later.</p>
 <p>We use inheritance when we need a certain class to inherit the properties of another one and thus extend it, without having to unnecessarily copy its code. Basically, it works when the class we want to create has something in common with the classes we've already made.</p>
 <h5 id="interface-inheritance">Interface inheritance</h5>
 <p>The same pattern applies to interfaces, but they take it even further. Classes in Kotlin cannot extend more than one base class, but they can implement several interfaces (classes may extend the base class, which extends another class, but that's not quite the same as the general idea of multiple inheritance).</p>
@@ -118,4 +119,5 @@ class Fly : Insect, Animal {
 
 }</code></pre>
 <h5 id="conclusion"> Conclusion</h5>
-<p>Now you know that inheritance as a tool in your programmer's toolbox can be applied not only to classes, but to interfaces as well, allowing for much more complex structures or hierarchies. Not only can we inherit from an interface that, in turn, inherits from another interface, but we can also do things that wouldn't work when using just classes – like inheriting properties from multiple interfaces at once – and it's as easy as making a list separated by commas.</p></body></html>
+<p>Now you know that inheritance as a tool in your programmer's toolbox can be applied not only to classes, but to interfaces as well, allowing for much more complex structures or hierarchies. Not only can we inherit from an interface that, in turn, inherits from another interface, but we can also do things that wouldn't work when using just classes – like inheriting properties from multiple interfaces at once – and it's as easy as making a list separated by commas.</p>
+</div>

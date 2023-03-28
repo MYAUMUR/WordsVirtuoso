@@ -1,4 +1,5 @@
 <h2>Delegate</h2>
+<div class="step-text">
 <p>Most programming involves reusing already existing code, sometimes with a few changes. In object-oriented programming (which is the case of Kotlin), for example, the main tool for code reusage is inheritance (and composition, consequently), which we've already covered. In this topic, we will discuss an alternative to inheritance – <strong>delegation</strong>. </p><h5 id="syntax-of-delegate">Syntax of delegate</h5><p>Delegation is a process of using a certain object instead of providing implementation, and we're going to take a look at how exactly it works.</p><p>Suppose we have fairly simple code – an interface and it's implementation:</p><pre><code class="language-kotlin">interface MyInterface {
     fun print()
     val msg: String
@@ -88,3 +89,4 @@ fun main() {
 }</code></pre><p>If we run the code above – here's the result. The first delegate makes a function call before and after the action, and the second delegate formats the output.</p><pre><code class="language-no-highlight">[05.11.2022-14:31:04]: OnBefore!
 [05.11.2022-14:31:04]: Parsing...
 [05.11.2022-14:31:04]: OnAfter!</code></pre><h5 id="conclusion">Conclusion</h5><p>Delegation allows for a better code reusage, or rather makes it more convenient due to Kotlin's good language-level support of delegation. Instead of writing code to achieve certain functionality inside the class (potentially copying this code from already existing implementations), we can introduce an object that already has the functionality we need and use this object to get the desirable result. </p>
+</div>
